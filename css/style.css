@@ -1,8 +1,11 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;   
+    box-sizing: border-box;  
+}
+
+body{
+    font-family: 'Open Sans', sans-serif; 
 }
 
 button{
@@ -43,13 +46,10 @@ button{
         #hero{
             width: 60%;
             margin: auto;
-            padding-top: 300px;
+            padding-top: 200px;
         }
 
-        #hero h1{
-            font-size: 48px;
-            font-weight:800;
-        }
+        
 
 /* debug rules */
 
@@ -62,4 +62,5 @@ button{
        background-color: pink;
     }
 
+    
     
