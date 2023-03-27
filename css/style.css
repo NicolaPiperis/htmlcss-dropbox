@@ -6,6 +6,8 @@
 
 body{
     font-family: 'Open Sans', sans-serif; 
+    font-size: 20px;
+    line-height: 200%;
 }
 
 button{
@@ -13,7 +15,12 @@ button{
     background-color: #0061ff;
     border: none;
     padding: 10px; 
-    font-size: 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.fa-solid{
+    font-size: 45px;
 }
 
     /* header style */  
@@ -32,6 +39,7 @@ button{
             justify-content: space-between;
             align-items: center;
             margin-bottom: 300px;
+            background-color: #ffffff;
         }
 
         .nav-son{
@@ -44,23 +52,139 @@ button{
         /* hero */
 
         #hero{
-            width: 60%;
+            width: 85%;
             margin: auto;
             padding-top: 200px;
         }
 
+        #hero h1 {
+            text-align: center;
+            font-size: 50px;
+            font-weight: 800;
+            margin-bottom: 80px;
+        }
+
+         #hero-content{
+            display: inline-flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        #hero-content > div {
+            padding: 30px;
+        }
+
+        #hero-text{
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            gap: 40px;
+            
+        }
+
+        #hero-image{
+            width: 800px;
+            
+        }
+
+    /* main style */
         
+        /* section-plan */
+
+        /*base container of this section */
+         #plan{ 
+            width: 60%;
+            margin: 220px auto;
+        }
+
+        /* title section */
+        #plan h2 {
+            font-size: 40px;
+            font-weight: 800;
+            margin-bottom: 80px;
+        }
+
+        /* input choise between */
+        #year-plan{
+            margin-left: 30px;
+        }
+
+        #plan-about{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        /* col plans */
+        .col-plan{
+            width: calc(90% / 3);
+            height: 800px;
+            border: 1px solid black;
+            margin-top: 80px;
+        }
+
+        /* different gender plans */
+        .gender{
+            text-align: center;
+            border-bottom: 1px black solid;
+            font-size: 15px;
+        }
+
+        /* emojy users */
+        .fa-user{
+            font-size: 15px;
+        }
+
+        /* last-plan */
+
+        #assisted-choice{
+            width: 100%;
+            border: 1px black solid;
+            margin-top: 80px;
+        }
+
+        #assisted-choice h3{
+            border-bottom: 1px solid black;
+        }
+        
+        /*section-contact style  */
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* debug rules */
 
-*{
-    border: 1px black solid;
+.col-plan{
+     background-color: pink;
 }
-    /* header style */
 
-    header nav{
-       background-color: pink;
-    }
+#assisted-choice{
+    background-color: pink;
+    height: 300px;
+}
+
+ /*section-contact style  */ 
+ 
 
     
     
