@@ -90,7 +90,8 @@ button{
 
         #hero-image{
             width: 800px;
-            
+            position: relative;
+            top: 120px;
         }
 
     /* main style */
@@ -225,7 +226,104 @@ button{
         #free-try{
             width: 100%;
             height: 300px;
+            background-color:#b4d0e7;
         }
+        
+        .last-block{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            
+            height: 100%;
+         }
+
+        .last-block h2{
+            color: #61082b;
+            width: 450px;
+            font-size: 40px;
+            font-weight: 800;
+            line-height: 150%;
+        }
+
+        .last-block button{
+            background-color: white;
+            color: black;
+            padding: 15px 55px;
+        }
+
+        /* section faq */
+
+        #faq{
+            margin-top: 200px;
+            margin-bottom: 350px;
+        }
+
+        #faq h2 {
+            font-size: 45px;
+            font-weight: 800;
+            padding-bottom: 120px;
+            border-bottom: 1px solid black;
+        }
+
+        .question{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top:  30px;
+            padding-bottom: 30px;
+            border-bottom: 1px solid black;
+        }
+
+        .fa-angle-down{
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+    /* footer */
+
+    footer{
+        background-color: black;
+        height: 800px;
+    }
+
+    #footer-container{
+        height: 100%;
+        width: 85%;
+        margin: 250px auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #footer-container a{
+        list-style:  none;
+        text-decoration: none;
+        color: white;
+        line-height: 300%;
+        font-size: 18px;
+    }
+
+    .footer-title-list {
+        padding-bottom: 65px;
+        font-size: 25px;
+        color: white;
+    }
+
+    #language{
+        color: gray;
+        list-style: none;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 14px;
+       
+    }
+
+    #language .fa-solid{
+        font-size: 15px;
+    }
+
+
 
 
         
@@ -295,9 +393,7 @@ button{
     border: burlywood 1px solid;
  }
 
- #free-try{
-    background-color: aqua;
- }
+
 
  
 
