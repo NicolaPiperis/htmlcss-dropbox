@@ -114,8 +114,9 @@ button a{
             }
 
             /* input choise between */
-            #year-plan{
-                margin-left: 30px;
+            .time-plan{
+                margin-right: 30px;
+                font-size: 15px;
             }
 
             #plan-about{
@@ -144,10 +145,15 @@ button a{
             
             }
 
+            .gray-text{
+                color: gray;
+            }
+
             /* info-section plan */
             .info-text {
                 font-size: 15px;
                 display: flex;
+                
             }
 
             /* try-or-buy section */
