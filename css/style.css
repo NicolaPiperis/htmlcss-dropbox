@@ -17,6 +17,7 @@ button{
     padding: 10px; 
     font-size: 16px;
     cursor: pointer;
+    transition: all ease 0.5s;
 }
 
 button a{
@@ -300,6 +301,7 @@ button a{
             height: 600px;
             text-align: left;
             overflow: auto;
+           
 
         }
 
@@ -330,6 +332,7 @@ button a{
             display: flex;
             justify-content: center;
             align-items: center;
+            transition: all ease 0.5s;
         }
 
         .sponsor img {
@@ -482,6 +485,47 @@ button a{
     #language .fa-solid{
         font-size: 14px;
     }
+
+/* transition on hover */
+
+button:hover {
+    opacity: 70%;
+}
+
+.green:hover{
+    border: #bfddbb solid 40px;
+    
+}
+
+.brown:hover{
+    border:40px solid  #7a0c38;
+}
+
+.blue:hover{
+    border: 40px solid #39b6e7;
+}
+
+.orange:hover{
+    border: 40px solid #ee5151;
+}
+
+.red:hover{
+    border: 40px solid #eb2e4a;
+}
+
+.light-blue:hover{
+    border: 40px solid #cee1f0;
+}
+
+.dark-blue:hover{
+    border: 40px solid  #1232b1;
+}
+
+.yellow:hover{
+    border: 40px solid rgb(238, 238, 139);
+}
+
+
 
 
 
