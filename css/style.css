@@ -19,13 +19,14 @@ button{
     cursor: pointer;
 }
 
+button a{
+    text-decoration: none;
+    color: white;
+}
+
 .container{
     width: 60%;
     margin: auto;
-}
-
-.fa-solid{
-    font-size: 45px;
 }
 
     /* header style */  
@@ -69,7 +70,7 @@ button{
             margin-bottom: 80px;
         }
 
-         #hero-content{
+        #hero-content{
             display: inline-flex;
             justify-content: space-between;
             align-items: center;
@@ -98,123 +99,188 @@ button{
         
         /* section-plan */
 
-        /*base container of this section */
-         #plan{ 
-            margin-top: 220px;
-            margin-bottom: 180px;
-        }
+            /*base container of this section */
+            #plan{ 
+                margin-top: 220px;
+                margin-bottom: 180px;
+                line-height: 180%;
+            }
 
-        /* title section */
-        #plan h2 {
-            font-size: 40px;
-            font-weight: 800;
-            margin-bottom: 80px;
-        }
+            /* title section */
+            #plan h2 {
+                font-size: 40px;
+                font-weight: 800;
+                margin-bottom: 80px;
+            }
 
-        /* input choise between */
-        #year-plan{
-            margin-left: 30px;
-        }
+            /* input choise between */
+            #year-plan{
+                margin-left: 30px;
+            }
 
-        #plan-about{
-            display: flex;
-            justify-content: space-between;
-        }
+            #plan-about{
+                display: flex;
+                justify-content: space-between;
+            }
+            
+            /* general-section plan */
+            .general{
+                padding-left: 30px;
+                padding-top: 25px;
+                padding-bottom: 25px;
+                padding-right: 30px;
+            }
 
-        /* col plans */
-        .col-plan{
-            width: calc(90% / 3);
-            height: 800px;
-            border: 1px solid black;
-            margin-top: 80px;
-        }
+            .general h3 {
+                font-size: 20px;
+            }
 
-        /* different gender plans */
-        .gender{
-            text-align: center;
-            border-bottom: 1px black solid;
-            font-size: 15px;
-        }
+            .cost{
+                font-size: 15px;
+            }
 
-        /* emojy users */
-        .fa-user{
-            font-size: 15px;
-        }
+            .general div{
+                font-size: 15px;
+            
+            }
 
-        /* last-plan */
+            /* info-section plan */
+            .info-text {
+                font-size: 15px;
+                display: flex;
+            }
 
-        #assisted-choice{
-            width: 100%;
-            border: 1px black solid;
-            margin-top: 80px;
-        }
+            /* try-or-buy section */
 
-        #assisted-choice h3{
-            border-bottom: 1px solid black;
-        }
-        
-        /*section-contact style  */
+            hr{
+                width: 55px;
+            }
 
-        #contact{
-            margin-top: 180px;
-            margin-bottom: 180px;
-            display: flex;
-            justify-content: space-between;
-            gap: 20px;
-        }
+            .try-or-buy div{
+                padding-bottom: 25px;
+            }
 
-        .macro-contact{ 
-            width: 500px;
-            height: 500px;
-            margin-bottom: 30px;
-         }
+            .try-or-buy button {
+                font-size: 15px;
+                padding: 10px 20px;
+            }
 
-        .macro-contact img {
-            max-width: 100%;
-        }
+            /* highlighted section */
 
-        .macro-contact h3 {
-            font-size: 30px;
-            padding-bottom: 30px;
-        }
+            .info-text strong {
+                color: black;
+            }
 
-        .macro-contact button{
-            color: black;
-            background-color: white;
-            border: 1px solid black;
-            padding: 10px 28px;
-            margin-top: 30px;
-        }
+            /* col plans */
+            .col-plan{
+                width: calc(90% / 3);
+                border: 1px solid lightgray;
+                margin-top: 80px;
+                padding-bottom: 40px;
+            }
 
-        /* section-operation style */
+            /* different gender plans */
+            .gender{
+                text-align: center;
+                border-bottom: 1px lightgray solid;
+                font-size: 15px;
+            }
 
-        #row-operation{
-            display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
-            gap: 20px;
-            margin-top: 60px;
-            margin-bottom: 130px;
-        }
+            /* emojy users */
+            .fa-user{
+                font-size: 15px;
+            }
 
-        .col-operation{
-            width: calc(94% / 3);
+            /* last-plan */
 
-        }
+            #assisted-choice{
+                width: 100%;
+                height: 300px;
+                border: 1px lightgray solid;
+                margin-top: 80px;
+            }
 
-        .img-operation {
-            max-width: 100%;
-        }
+            .assisted-choice-row{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                color: black;
+            }
 
-        #operation h2 {
-            font-size: 40px;
-        }
+            .end-content {
+                font-size: 17px;
+                padding-top: 45px;
+                width: 550px;
+            }
 
-        #last-title {
-            width: 700px;
-            line-height: 150%;
-            margin-bottom: 100px;
-        }
+            .assisted-choice-row button {
+                padding: 15px 25px;
+            }
+
+
+            
+            /*section-contact style  */
+
+            #contact{
+                margin-top: 180px;
+                margin-bottom: 180px;
+                display: flex;
+                justify-content: space-between;
+                gap: 20px;
+            }
+
+            .macro-contact{ 
+                width: 500px;
+                height: 500px;
+                margin-bottom: 30px;
+            }
+
+            .macro-contact img {
+                max-width: 100%;
+            }
+
+            .macro-contact h3 {
+                font-size: 30px;
+                padding-bottom: 30px;
+            }
+
+            .macro-contact button{
+                color: black;
+                background-color: white;
+                border: 1px solid black;
+                padding: 10px 28px;
+                margin-top: 30px;
+            }
+
+            /* section-operation style */
+
+            #row-operation{
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                gap: 20px;
+                margin-top: 60px;
+                margin-bottom: 130px;
+            }
+
+            .col-operation{
+                width: calc(94% / 3);
+
+            }
+
+            .img-operation {
+                max-width: 100%;
+            }
+
+            #operation h2 {
+                font-size: 40px;
+            }
+
+            #last-title {
+                width: 700px;
+                line-height: 150%;
+                margin-bottom: 100px;
+            }
 
         /* section company */
         #company{
@@ -438,18 +504,7 @@ button{
 
 
 
-/* debug rules */
 
-/* section plan style */
-
-.col-plan{
-     background-color: pink;
-}
-
-#assisted-choice{
-    background-color: pink;
-    height: 300px;
-}
 
 
 
