@@ -1,0 +1,78 @@
+/* transition on hover */
+
+/* buttons */
+    button:hover {
+    opacity: 70%;
+    }
+
+/* company and sponsor */
+    .green:hover{
+        border: #bfddbb solid 40px;
+        
+    }
+
+    .brown:hover{
+        border:40px solid  #7a0c38;
+    }
+
+    .blue:hover{
+        border: 40px solid #39b6e7;
+    }
+
+    .orange:hover{
+        border: 40px solid #ee5151;
+    }
+
+    .red:hover{
+        border: 40px solid #eb2e4a;
+    }
+
+    .light-blue:hover{
+        border: 40px solid #cee1f0;
+    }
+
+    .dark-blue:hover{
+        border: 40px solid  #1232b1;
+    }
+
+    .yellow:hover{
+        border: 40px solid rgb(238, 238, 139);
+    }
+
+/* time-plan "checkbox" */
+
+    .circle:hover{
+        border: #0061ff 3px solid;
+    }
+
+/* faq-answer */
+   .question-answer-block:active .answer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+
+   .question-answer-block:active .question{
+    display: none;
+   }
+
+/* nav */
+
+.nav-son div:hover{
+    border-bottom: 5px solid darkblue;
+}
+
+/* .nav-son{
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 580px;
+    align-items: center;
+    height: 100%;
+}
+
+.nav-son div {
+    height: 100%;
+    line-height: 4;
+
+    height to .nav-son and .nav-son-div (100%) and line height (4?) on .nav-son div to center the items ; Why display:flex ; align-items:center; doesn't work properly (?)
+} */
